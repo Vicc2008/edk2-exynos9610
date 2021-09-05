@@ -129,17 +129,17 @@
   #
   # Fastboot
   #
-  gEmbeddedTokenSpaceGuid.PcdAndroidFastbootUsbVendorId|0x18d1
-  gEmbeddedTokenSpaceGuid.PcdAndroidFastbootUsbProductId|0xd00d
+  gEmbeddedTokenSpaceGuid.PcdAndroidFastbootUsbVendorId|0x22B8
+  gEmbeddedTokenSpaceGuid.PcdAndroidFastbootUsbProductId|0x2E80
 
   #
   # Make VariableRuntimeDxe work at emulated non-volatile variable mode.
   #
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
 
-  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d400000
+  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x17000040
   gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2160
+  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2520
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiExposedTableVersions|0x20
 
