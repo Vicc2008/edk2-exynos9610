@@ -36,12 +36,12 @@
 
 [PcdsFixedAtBuild.common]
   # Simple FrameBuffer
-  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d400000|UINT32|0x0000a400
+  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x17000040|UINT32|0x0000a400
   gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080|UINT32|0x0000a401
-  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340|UINT32|0x0000a402
+  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2520|UINT32|0x0000a402
   gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|66|UINT32|0x0000a403
   gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
-  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2340|UINT32|0x0000a405
+  gPixel3PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2520|UINT32|0x0000a405
 
   # RTC information
   gPixel3PkgTokenSpaceGuid.PcdBootShimInfo1|0xb0000000|UINT64|0x00000a601
